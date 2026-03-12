@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO Profile card</title>>
+    <meta name="description" content="Basics of HTML">
+    <meta name="keywords" content="HTML, tags, Headings, Structure">
+    <meta name="author" content="Ryan Fowler">
+    <link rel="stylesheet" href="styles.css">
     <!--
       🧠 PROJECT TITLE: SEO Profile Card
 
@@ -36,6 +43,75 @@
     -->
   </head>
   <body>
+  <div class="page">
+    <header>
+      <h1>Ryan Fowler</h1>
+      <p>I am a hardworker and trying to work towards my goal of becoming a <span class="small" style="color: chartreuse;">Software Engineer</span>. I would love to work in NYC. </p>
+    </header>
+    <main>
+      <div class="grid-2">
+        <section class="card">
+          <h2>About</h2>
+          <p>I am currently working in Sales and do not like it, I am working towards changing my career to become a SWE. I enjot reading, sports and movies. </p>
+        </section>
+        <section class="card">
+          <h2>Skills</h2>
+          <ul>
+            <li>Teamwork</li>
+            <li>Professionalism</li>
+            <li>Adaptable</li>
+            <li>Analytical</li>
+            <li>Communication</li>
+          </ul>
+          <p class="small">** Not All Skills **</p>
+        </section>
+        <section class="card">
+          <table border = "1">
+            <thead>
+              <h2>Weekly Focus</h2>
+            </thead>
+            <tbody>
+              <tr>Day</tr>
+              <tr>Topic</tr>
+              <tr>Goal</tr>
+            </tbody>
+          </table>
+        </section>
+        <section class="card">
+          <h3>Contact</h3>
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required />
+            <br />
+            <label for="email">Email:</label>
+            <input type="email" id="email" required />
+            <br />
+            <label for="password">Password:</label>
+            <input type="password" id="password" required />
+            <br />
+            <select id="country">
+              <option value="">Reason for contacting</option>
+              <option value="signature">Signature</option>
+              <option value="photo">Photo</option>
+              <option value="work">Work</option>
+              <option value="just because">Just Because</option>
+            </select>
+            <br />
+            <br />
+            <button type="submit">Contact</button>
+          </form>
+        </section>
+        <footer class="footer">
+          <p>Copyright Fowler 2026</p>
+          <ol>
+            <li>Contact</li>
+            <li>Home</li>
+            <li>About Me</li>
+          </ol>
+        </footer>
+      </div>
+    </main>
+  </div>
     <!-- STEP 3 — Create a semantic page layout -->
     <!--
       Create the main layout using semantic tags:
