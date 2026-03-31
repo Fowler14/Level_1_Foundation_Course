@@ -21,6 +21,30 @@
   Use display:flex with gap OR grid with gap to separate boxes.
 */
 
+body {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  max-width: auto;
+  padding: 20px;
+  
+}
+
+.page {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  max-width: auto;
+  padding: 20px;
+  
+}
+
+.playground {
+  padding: 12px;
+  background-color: aqua;
+  display: flex;
+  gap: 40px;
+  
+}
+
 /* ✅ WRITE YOUR CSS UNDER THIS LINE */
 
 /* STEP 2 — Base box size (width/height) */
@@ -29,6 +53,17 @@
   Give .box a background color so the content area is visible.
 */
 
+.box {
+  min-height: 10px;
+  background-color: blue;
+  padding: 12px;
+  border: 2px solid black;
+}
+
+.box--two {
+  border: 10px solid black;
+}
+
 /* ✅ WRITE YOUR CSS UNDER THIS LINE */
 
 /* STEP 3 — Padding (inside space) */
@@ -36,6 +71,7 @@
   Add padding to .box (example: 16px).
   Explain: padding increases space between content and border.
 */
+
 
 /* ✅ WRITE YOUR CSS UNDER THIS LINE */
 
@@ -53,6 +89,15 @@
   On .box--one ONLY: add margin-bottom (example: 24px).
   Explain: margin is outside the border—pushes other boxes away.
 */
+
+.box--one {
+  margin-bottom: 24px;
+  padding: 10px;
+}
+
+.box--three {
+  padding: 42px;
+}
 
 /* ✅ WRITE YOUR CSS UNDER THIS LINE */
 

@@ -20,6 +20,12 @@
   Make .row a responsive grid: 3 columns when there is space, otherwise stack.
   Add gap so panels don't touch.
 */
+body .page {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  max-width: 1000px;
+  padding: 20px;
+}
 
 /* ✅ WRITE YOUR CSS UNDER THIS LINE */
 
