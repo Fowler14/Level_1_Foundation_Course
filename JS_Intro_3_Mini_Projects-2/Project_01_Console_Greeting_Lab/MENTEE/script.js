@@ -23,6 +23,8 @@
   - a semicolon at the end ;
 */
 
+console.log("Hello World");
+
 // ✅ WRITE YOUR CODE UNDER THIS LINE
 
 // STEP 2 — Variables (let vs const)
@@ -33,6 +35,11 @@
   Example: let mood = "excited";
   Console.log both variables so you can SEE their values.
 */
+const name = "Ryan";
+let mood = "Happy";
+
+console.log(name);
+console.log(mood);
 
 // ✅ WRITE YOUR CODE UNDER THIS LINE
 
@@ -47,7 +54,15 @@
 
 // ✅ WRITE YOUR CODE UNDER THIS LINE
 
-// STEP 4 — Operators (+ and -) mini demo
+let favoriteFood = "tuna";
+let number = 28;
+let isLearningJS = true;
+
+console.log(favoriteFood);
+console.log(number);
+console.log(isLearningJS);
+
+  // STEP 4 — Operators (+ and -) mini demo
 /*
   Create a number called points = 10
   Then create:
@@ -55,7 +70,14 @@
   - pointsAfterLoss = points - 3
   Console.log all 3 numbers to confirm + and - work.
 */
+let points = 10;
 
+let pointsAfterLoss = points - 3;
+let pointsAfterWin = points + 5;
+
+console.log(points);
+console.log(pointsAfterLoss);
+console.log(pointsAfterWin);
 // ✅ WRITE YOUR CODE UNDER THIS LINE
 
 // STEP 5 — Curly braces practice (if/else block)
@@ -65,5 +87,9 @@
   Else: console.log("Start today!")
   Notice how if/else uses parentheses (condition) and curly braces { }.
 */
-
+if (isLearningJS = false) {
+  console.log("Keep going!");
+} else {
+  console.log("Start today!");
+}
 // ✅ WRITE YOUR CODE UNDER THIS LINE
